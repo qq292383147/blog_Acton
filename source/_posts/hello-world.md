@@ -1,38 +1,24 @@
 ---
 title: 您好，博客
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+欢迎来到Acton的个人技术博客！
+[博客地址:  ](https://zhanglong292383147.gitee.io/)https://zhanglong292383147.gitee.io/
+这是你的第一篇文章。查看文档以获得更多信息。
 
-## Quick Start
+## 快速启动
 
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
+### 创建一个新笔记
 
 ``` bash
-$ hexo server
+笔记（有颜色的关键字）
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+More info: [错误提示]
 
-### Generate static files
+### 运行服务器
 
 ``` bash
-$ hexo generate
+笔记（没颜色的关键字）
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+More info: [服务器]

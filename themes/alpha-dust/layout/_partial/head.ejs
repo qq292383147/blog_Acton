@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--Description-->
+    <!--描述-->
     <% if (page.description){ %>
         <meta name="description" content="<%= page.description %>">
     <% } else if (config.description){ %>
@@ -15,26 +15,26 @@
         <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
     <% } %>
 
-    <!--Author-->
+    <!--作者-->
     <% if (config.author){ %>
         <meta name="author" content="<%= config.author %>">
     <% } %>
 
-    <!--Open Graph Title-->
+    <!-- 开图标题 -->
     <% if (page.title){ %>
         <meta property="og:title" content="<%= page.title %>"/>
     <% } else { %>
         <meta property="og:title" content="<%= config.title %>"/>
     <% } %>
 
-    <!--Open Graph Description-->
+    <!-- 开图描述 -->
     <% if (page.description){ %>
         <meta property="og:description" content="<%= page.description %>" />
     <% } else if (config.description) { %>
         <meta property="og:description" content="<%= config.description %>" />
     <% } %>
 
-    <!--Open Graph Site Name-->
+    <!-- 开图形站点名 -->
     <meta property="og:site_name" content="<%= config.title %>"/>
 
     <!--Type page-->

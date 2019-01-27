@@ -2,24 +2,24 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
+# 网址 Site
 title: 张健龙个人技术博客
-subtitle:
+subtitle:  # 网站副标题
 
 description: 做人以清心为根本，做事以尽心为准则   # 描述
 keywords:  # 关键字
-author: Acton
-language: zh-CN
+author: Acton # 您的名字
+language: zh-CN # 网站使用的语言
 timezone:
 
-# URL
+# 相对地址
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
-# Directory
+# 电话 Directory
 source_dir: source
 public_dir: public
 tag_dir: tags
@@ -29,7 +29,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Writing
+# 文字 Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
@@ -54,29 +54,29 @@ index_generator:
   per_page: 10
   order_by: -date
   
-# Category & Tag
+# 分类 Category & 标签 Tag
 default_category: uncategorized
 category_map:
 tag_map:
 
-# Date / Time format
+# 日期 / 时间格式 Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
-# Pagination
+# 分页 Pagination
 ## Set per_page to 0 to disable pagination
 per_page: 10
 pagination_dir: page
 
-# Extensions
+# 扩展 Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: alpha-dust
 
-# Deployment
+# 部署 Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
