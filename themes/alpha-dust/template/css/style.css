@@ -85,7 +85,7 @@ header .logo img {
   border-radius: 50%;
 }
 header .logo .title {
-  line-height: 100px;
+  line-height: 10px;
   color: #d7ecff;
   font-family: "Orbitron", sans-serif;
   text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
