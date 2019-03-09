@@ -65,7 +65,12 @@ menu:
   archives: /archives
   About: /about.html
   Categories: /categories
-
+# Header
+menu:
+  Home: /
+  archives: /archives
+  About: /about.html
+  Categories: /tags
 # 日期 / 时间格式 Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
