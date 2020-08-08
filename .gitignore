@@ -1,0 +1,10 @@
+﻿.DS_Store
+Thumbs.db
+# db.json
+*.log
+node_modules/
+public/
+.deploy*/
+hexo常用命令.md
+md格式.md
+帮助理解(注释)_config.yml
